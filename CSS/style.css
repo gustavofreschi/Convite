@@ -1,0 +1,377 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/yellow-diagonal-geometric-striped-background-with-halftone-detailed_1409-1451.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    height: 60px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#convite {
+    margin-top: 70px;
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+}
+
+.p-diversao {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.fotoFamily {
+    width: 30%;
+    transition: 500ms;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px black;
+}
+
+.fotoFamily:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 150px;
+}
+
+@keyframes esquerda {
+    from {margin-left: -400px;}
+    to {margin-left: 0;}
+}
+
+@keyframes invisible {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.footer0 {
+    border-top: solid 2px black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer0 > h1 {
+    margin-top: 15px;
+}
+
+
+.spidey {
+    animation-name: esquerda;
+    animation-duration: 1s;
+
+}
+
+#fotos {
+    margin-bottom: 100px;
+}
+
+.foto {
+    width: 20%;
+    height: 500px;
+    transition: 500ms;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px black;
+}
+
+.foto:hover {
+    transform: scale(1.05);
+}
+
+.miles {
+    animation-name: invisible;
+    animation-duration: 1s;
+}
+
+.logo2 {
+    display: none;
+}
+
+#local {
+    margin-top: 50px;
+}
+
+#data {
+    margin-top: 50px;
+}
+
+
+.sombra {
+    box-shadow: 0px 0px 10px black;
+}
+
+.video {
+    width: 40%;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+.HR {
+    background: var(--Gradient, linear-gradient(270deg, rgb(15, 4, 4) 0%, rgba(204, 244, 230, 0.34) 100%));
+    padding: 1px;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.HR2 {
+    background: var(--Gradient, linear-gradient(270deg, rgb(15, 4, 4) 0%, rgba(204, 244, 230, 0.34) 100%));
+    padding: 1px;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.confirmar {
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+    background: rgb(211, 226, 75);
+    background: linear-gradient(180deg, rgb(224, 204, 19) 100%, rgba(221, 174, 0, 0.8743872549019608) 100%);
+    border-radius: 5px;
+    transition: 500ms;
+    width: 200px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.confirmar:hover {
+    transform: scale(1.05);
+}
+
+.f5 {
+    font-size: 3em;
+    font-family: 'Jokerman';
+}
+
+.div-local {
+    margin-left: 200px;
+}
+
+.H1convite {
+    font-size: 3.5em;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 200px;
+}
+.H1convite2 {
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+}
+.H1convite3 {
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Logo {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-collapse {
+    border: black;
+}
+
+#spiderLogo {
+    width: 60px;
+}
+
+.p-solicitacao {
+    font-size: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/9441/9441587.png) !important;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    background-color: rgba(136, 6, 6, 0.664);
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    transition: width 0.35s ease 0s;
+    position: absolute;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+
+@media (max-width: 576px) {
+
+    .H1convite {
+        font-size: 2.5em;
+        margin-left: 0;
+    }
+
+    .H1convite2 {
+        font-size: 2.5em;
+    }
+
+    .H1convite3 {
+        font-size: 2.5em;
+    }
+
+    .div-local {
+        margin-left: 0;
+    }
+
+    .video {
+        width: 80%;
+    }
+
+    .p-solicitacao {
+        font-size: 15px;
+    }
+
+    .p-data {
+        font-size: 18px;
+    }
+
+    .foto {
+        width: 60%;
+        height: 300px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .p-diversao {
+        font-size: 1.2em;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .logo2 {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+
+    .HR {
+        margin-top: -200px;
+    }
+
+    .HR2 {
+        margin-top: 50px;
+    }
+
+    #local {
+        margin-top: -50px;
+    }
+
+    .fotoFamily {
+        width: 80%;
+    }
+
+}
+
+
+
+@media (min-width: 760px) {
+    .logo {
+        display: none;
+    }
+
+    .video {
+        width: 60%;
+    }
+
+    .HR {
+        margin-top: -100px;
+    }
+
+    .H1convite {
+        margin-left: 100px;
+    }
+
+    .div-local {
+        margin-left: 100px;
+    }
+
+    .div-local2 {
+        margin-left: -100px;
+    }
+
+    .logo2 {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 200px;
+    }
+
+    .foto {
+        width: 40%;
+    }
+
+    .fotoFamily {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .video {
+        width: 40%;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .HR {
+        margin-top: 50px;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-top: 60px;
+    }
+
+    .div-local2 {
+        margin-left: 100px;
+    }
+    
+    .foto {
+        width: 20%;
+    }
+
+    .fotoFamily {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        margin-top: 100px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .foto {
+        width: 20%;
+    }
+}
